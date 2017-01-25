@@ -56,6 +56,8 @@ public class HomeActivity extends Activity {
                 return false;
             }
 
+            
+
             try {
                 mLedGpio.setValue(!mLedGpio.getValue());
             } catch (IOException e) {
